@@ -6,25 +6,44 @@
 }
 
 body{
-    width: 100hw;
+    width: 100vw;
+    height: 100vh;
     margin-right: 20px;
     display: block;
     margin-right: auto;
     margin-left: auto;
-    background-color: black;
+    background: linear-gradient(68.15deg, black 16.62%, #BB9362 85.61%);
 }
 
 header{
     margin-top: 15px;
 }
 
+header > img{
+    
+}
+
 nav{
     text-align: right;
+
 }
 
 nav > a {
     text-decoration: none;
-    
     font-weight: bolder;
     font-size: 1.0em;
+}
+
+nav > a:hover{
+    padding: 3px;
+    background-color: #a88457;
+    border-radius: 10px;
+}
+
+main > h1{
+    color: white;
+}
+
+main > h2 {
+    color: white;
 }
