@@ -6,7 +6,8 @@
 }
 
 body{
-    width: 768px;
+    width: 100hw;
+    margin-right: 20px;
     display: block;
     margin-right: auto;
     margin-left: auto;
