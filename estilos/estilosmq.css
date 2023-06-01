@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px ){
+    body{
+        width: 1050px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    i#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+        padding-right: 15px;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a{
+        border-radius: 10px;
+    }
+
+    main {
+        width: 768px;
+    }
+}

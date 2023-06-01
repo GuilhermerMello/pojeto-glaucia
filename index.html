@@ -5,17 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GS Advogada</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="estilos/estilosmq.css">
 </head>
 <body>
     <header>
         <img src="imagens/logo-gsadvogada-62.png" alt="Logo GS Advogada">
-        <nav>
-            <a href="#">Serviços</a>
-            <a href="#">Quem somos</a>
-            <a href="#">Fale conosco</a>
-            <a href="#">Parcerias</a>
-        </nav>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Fale conosco</a></li>
+                <li><a href="#">Parcerias</a></li>
+            </ul>
+        </menu>
     </header>
     <main>
         <h1>Glaucia Silva</h1>
@@ -24,5 +29,21 @@
     <footer>
 
     </footer>
+    <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block'
+            } else{
+                itens.style.display = 'none'
+            }
+        }
+        function clickMenu(){
+            if(itens.style.display == 'block' ){
+                itens.style.display = 'none'
+            }else {
+                itens.style.display ='block'
+            }
+        }
+    </script>
 </body>
 </html>
