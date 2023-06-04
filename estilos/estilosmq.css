@@ -28,8 +28,22 @@
         display: inline-block;
     }
 
-    menu > ul > li > a{
-        border-radius: 10px;
+    menu > ul > li > a {
+        background-color: white;
+        border-top: none;
+    }
+
+    #buttonwhatsapp {
+        padding: 15px;
+        background-color: rgb(3, 179, 3);
+        color: white;
+        text-decoration: none;
+        border-radius: 20px;
+        font-size: 0.8em;
+    }
+
+    #buttonwhatsapp:hover{
+        background-color: green;
     }
 
     main {
@@ -40,5 +54,14 @@
         height: 335px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    main > h1{
+        color: white;
+    }
+
+    main > h2 {
+        color: white;
+        
     }
 }
