@@ -2,12 +2,13 @@
 
 @media screen and (min-width:768px ){
     body{
-        width: 1050px;
-        margin-left: auto;
-        margin-right: auto;
+
     }
 
     header{
+        width: 1050px;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -32,6 +33,12 @@
     }
 
     main {
-        width: 768px;
+
+        background-image: url('../imagens/livros-corte-1050-just.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 335px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
