@@ -12,7 +12,7 @@ body{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    background: white
+    background-color: #1C1C1C;
 }
 
 header{
@@ -27,12 +27,12 @@ header > img{
 }
 
 i#burguer{
-    background-color: #BB9362;
-    color: rgb(0, 0, 0);
+    color: white;
     display: block;
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    border: 1px white;
 }
 
 i#burguer:hover{
@@ -53,27 +53,32 @@ menu > ul > li > a{
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: #BB9362;
-    color: black;
+    color: white;
     border-top: 2px solid gray;
 }
 
 menu > ul > li > a:hover{
-    background-color: #bb936294;
+    background-color: white;
+    color: black;
 }
 
 main{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
     margin-top: 25px;
 }
 
 main > h1{
-    color: black;
+    font-size: 75px;
+    padding-top: 25%;
+    padding-left: 15%;
+    color: rgba(255, 255, 255, 0.877);
+    text-shadow: 1px 1px 15px #6666666c;
 }
 
 main > h2 {
-    color: black;
+    margin-top: 1em;
+    padding-left: 15%;
+    color: rgba(255, 255, 255, 0.877);
 }

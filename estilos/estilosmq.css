@@ -1,10 +1,6 @@
 @charset "UTF-8";
 
 @media screen and (min-width:768px ){
-    body{
-
-    }
-
     header{
         width: 1050px;
         margin-left: auto;
@@ -29,17 +25,7 @@
     }
 
     menu > ul > li > a {
-        background-color: white;
         border-top: none;
-    }
-
-    #buttonwhatsapp {
-        padding: 15px;
-        background-color: rgb(3, 179, 3);
-        color: white;
-        text-decoration: none;
-        border-radius: 20px;
-        font-size: 0.8em;
     }
 
     #buttonwhatsapp:hover{
@@ -47,17 +33,13 @@
     }
 
     main {
-
-        background-image: url('../imagens/livros-corte-1050-just.png');
-        background-repeat: no-repeat;
-        background-position: center;
         height: 335px;
         margin-left: auto;
         margin-right: auto;
     }
 
     main > h1{
-        color: white;
+ ''        color: white;
     }
 
     main > h2 {
