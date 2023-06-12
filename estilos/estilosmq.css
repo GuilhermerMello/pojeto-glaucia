@@ -12,7 +12,7 @@
     }
 
     header > a >img.whatsapp{
-        display: block;
+        display: inline-block;
         width: 65px;
     }
     

@@ -33,7 +33,7 @@ header > a >img.whatsapp{
 
 i#burguer{
     color: white;
-    display: block;
+    display: inline-block;
     text-align: center;
     padding: 10px;
     cursor: pointer;
