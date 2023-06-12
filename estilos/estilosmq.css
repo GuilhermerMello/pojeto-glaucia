@@ -11,6 +11,12 @@
         justify-content: space-around;
     }
 
+    header > a >img.whatsapp{
+        display: block;
+        width: 65px;
+    }
+    
+
     i#burguer{
         display: none;
     }
@@ -28,10 +34,6 @@
         border-top: none;
     }
 
-    #buttonwhatsapp:hover{
-        background-color: green;
-    }
-
     main {
         height: 335px;
         margin-left: auto;
@@ -39,7 +41,7 @@
     }
 
     main > h1{
- ''        color: white;
+        color: white;
     }
 
     main > h2 {

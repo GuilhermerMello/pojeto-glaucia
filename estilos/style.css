@@ -26,6 +26,11 @@ header > img{
     text-align: center;
 }
 
+header > a >img.whatsapp{
+    display: none;
+}
+
+
 i#burguer{
     color: white;
     display: block;
